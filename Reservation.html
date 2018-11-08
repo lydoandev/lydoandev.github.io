@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
+ 	<script src="JS/scrollMenu.js"></script>
+</head>
+<body>
+	<div class="page-wrap">
+		<div class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="header-left">
+						<div class="info">
+							<span>
+							<i class="glyphicon glyphicon-cloud"></i>
+							27°C
+							</span>
+							<span>
+								<i class="glyphicon glyphicon-map-marker"></i>
+								101B Lê Hữu Trác
+							</span>
+							<span>
+								<i class="glyphicon glyphicon-earphone"></i>
+								+84 648 534 343
+							</span>
+						</div>
+					</div>
+					<div class="header-right">
+						<ul class="nav navbar-nav">
+			      	<li class="active"><a href="Rigister.html">REGISTER</a></li>
+              <li><a href="Login.html">LOG IN</a></li>
+              <li class="dropdown">
+            		<a href="#" class="dropdown-toggle" data-toggle="dropdown">USD<span class="caret"></span></a>
+            		<ul class="dropdown-menu" role="menu">
+                  <li><a href="#">USD</a></li>
+                  <li><a href="#">ER</a></li>
+                  <li><a href="#">VNĐ</a></li>
+            		</ul>
+        			</li>                    
+	      		</ul>
+          </div>
+        </div>
+			</div>
+			<div class="header-menu text-uppercase" id="myMenu">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+              </button>
+              <a href="#" class="navbar-brand"><img src="Image/logo.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Room <span class="caret"></span></a>
+                  <ul class="dropdown-menu text-capitalize" role="menu">
+                    <li><a href="Room1.html">Room 1</a></li>
+                    <li><a href="Room2.html">Room 2</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Restaurant <span class="caret"></span></a>
+                  <ul class="dropdown-menu text-capitalize" role="menu">
+                    <li><a href="Restaurant1.html">Restaurant 1</a></li>
+                    <li><a href="Restaurant2.html">Restaurant 2</a></li>
+                  </ul>
+                </li>
+                <li  class="active"><a href="Reservation.html">Reservation</span></a></li>
+                <li><a href="Page.html">Page <span class="caret"></span></a></li>
+                <li><a href="Gallery.html">Gallery <span class="caret"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+			</div>
+		</div>
+
+    <div id="slider">
+      <div class="text">
+        <h1>RESTAURANT</h1>
+        <h4>Lorem Ipsum is simply dummy text of the printing</h4>
+      </div>
+    </div>
+
+    <div class="noidung">
+      <section class="section-reservations">
+        <div class="container">
+          <div class="reservations-tabs">
+                <div class="tablist row">
+                  <ul role="tablist" class="nav nav-tabs small">
+                    <li class=" nav-item active col-xs-3 col-sm-3 col-md-3">
+                      <a href="#tabs-1" data-toggle="tab" aria-expanded="true"><h4>1.Choose Date</h4></a>
+                    </li>
+                    <li class="nav-item col-xs-3 col-sm-3 col-md-3">
+                      <a href="#tabs-2" data-toggle="tab" aria-expanded="true"><h4>2.Choose Room</h4></a>
+                    </li>
+                    <li class="nav-item col-xs-3 col-sm-3 col-md-3">
+                      <a href="#tabs-3" data-toggle="tab" aria-expanded="true"><h4>3.Make a reservation</h4></a>
+                    </li>
+                    <li class="nav-item col-xs-3 col-sm-3 col-md-3">
+                      <a href="#tabs-4" data-toggle="tab" aria-expanded="true"><h4>4.Confirmation</h4></a>
+                    </li>
+                  </ul>
+                </div>
+
+            <div class="tab-content">
+              <div id="tabs-1" class="tab-pane active">
+                <div class="container">
+
+                  <div class="chooseDate">
+                    <div class="row">
+
+                      <div class="reservation_check col-md-4 col-sm-12 col-lg-3 col-xs-12">
+
+                        <h4 class="text-center t">YOUR RESERVATION</h2>
+                        <hr>
+                        <div class="stay-date">
+                          <div class="form-group">
+                            <h5 class="title">YOUR STAY DATES</h5>
+                          </div>
+                          <div class="form-group">
+                            <h5>ARRIVE</h5>
+                          </div>
+                          <div class="form-group">
+                            <input type="text" name="arrive" class="form-control" placeholder="Arrive">
+                          </div>
+                          <div class="form-group">
+                            <h5>DEPATURE</h5>
+                          </div>
+                          <div class="form-group">
+                            <input type="text" name="arrive" class="form-control" placeholder="Depature">
+                          </div>
+                        </div>
+
+                        <div class="room">
+                          <div class="form-group">
+                            <h5 class="title">ROOM & GUEST</h5>
+                          </div>
+                          <div class="form-group">
+                            <h5>ROOMS</h5>
+                          </div>
+                          <div class="form-group">
+                            <select class="form-control rooms">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                          </select>
+                          </div>
+
+                          <div class="row form-group">
+                            <div class="col-sm-4 col-xs-2"></div>
+                            <div class="col-sm-4 col-xs-5">
+                              <h5>ADULT</h5>
+                            </div>
+                            <div class="col-sm-4 col-xs-5">
+                              <h5>CHILD</h5>
+                            </div>
+                          </div>
+
+                          <div class="row form-group">
+                            <div class="col-sm-4 col-xs-2">
+                              <h5>ROOM 1</h5>
+                            </div>
+                            <div class="col-sm-4 col-xs-5">
+                              <select class="form-control rooms">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                              </select>
+                            </div>
+                            <div class="col-sm-4 col-xs-5">
+                              <select class="form-control rooms">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                              </select>
+                            </div>
+
+                          </div>
+
+                          <div class="row form-group">
+                            <div class="col-sm-4 col-xs-2">
+                              <h5>ROOM 2</h5>
+                            </div>
+                            <div class="col-sm-4 col-xs-5">
+                              <select class="form-control rooms">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                              </select>
+                            </div>
+                            <div class="col-sm-4 col-xs-5">
+                              <select class="form-control rooms">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                              </select>
+                            </div>
+
+                          </div>
+
+                          <div class="row form-group text-center">
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                              <button class="btn"> CHECK AVAILABLE </button>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                          </div>
+                        </div>
+
+                      </div>
+
+
+                      <div class="calender col-md-7 col-sm-12 col-lg-8 col-xs-12">
+                        <h4 class="text-center t">AVAILABILITY</h4>
+                        <hr>
+                        <div class="row">
+                          <div class="calender_detail col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <h5 class="text-center">JUNE 2018</h3>
+                            <hr>
+                            <table >
+                              <thead>
+                                <tr>
+                                  <th>SU</th>
+                                  <th>MO</th>
+                                  <th>TU</th>
+                                  <th>WE</th>
+                                  <th>TH</th>
+                                  <th>FR</th>
+                                  <th>SA</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td></td>
+                                  <td>1</td>
+                                  <td class="specal">2</td>
+                                  <td class="specal">3</td>
+                                  <td class="specal">4</td>
+                                  <td class="specal">5</td>
+                                  <td>6</td>
+                                </tr>
+                                <tr>
+                                  <td>7</td>
+                                  <td>8</td>
+                                  <td>9</td>
+                                  <td>10</td>
+                                  <td>11</td>
+                                  <td>12</td>
+                                  <td>13</td>
+                                </tr>
+                                <tr>
+                                  <td>14</td>
+                                  <td>15</td>
+                                  <td>16</td>
+                                  <td>17</td>
+                                  <td>18</td>
+                                  <td>19</td>
+                                  <td>20</td>
+                                </tr>
+                                <tr>
+                                  <td>21</td>
+                                  <td>22</td>
+                                  <td>23</td>
+                                  <td>24</td>
+                                  <td>25</td>
+                                  <td>26</td>
+                                  <td>27</td>
+                                </tr>
+                                <tr>
+                                  <td>28</td>
+                                  <td>29</td>
+                                  <td>30</td>
+                                  <td>31</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <div class="calender_detail col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <h5 class="text-center">JUNE 2018</h3>
+                            <hr>
+                            <table >
+                              <thead>
+                                <tr>
+                                  <th>SU</th>
+                                  <th>MO</th>
+                                  <th>TU</th>
+                                  <th>WE</th>
+                                  <th>TH</th>
+                                  <th>FR</th>
+                                  <th>SA</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td></td>
+                                  <td>1</td>
+                                  <td class="specal">2</td>
+                                  <td class="specal">3</td>
+                                  <td class="specal">4</td>
+                                  <td class="specal">5</td>
+                                  <td>6</td>
+                                </tr>
+                                <tr>
+                                  <td>7</td>
+                                  <td>8</td>
+                                  <td>9</td>
+                                  <td>10</td>
+                                  <td>11</td>
+                                  <td>12</td>
+                                  <td>13</td>
+                                </tr>
+                                <tr>
+                                  <td>14</td>
+                                  <td>15</td>
+                                  <td>16</td>
+                                  <td>17</td>
+                                  <td>18</td>
+                                  <td>19</td>
+                                  <td>20</td>
+                                </tr>
+                                <tr>
+                                  <td>21</td>
+                                  <td>22</td>
+                                  <td>23</td>
+                                  <td>24</td>
+                                  <td>25</td>
+                                  <td>26</td>
+                                  <td>27</td>
+                                </tr>
+                                <tr>
+                                  <td>28</td>
+                                  <td>29</td>
+                                  <td>30</td>
+                                  <td>31</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="tabs-2" class="tab-pane fade">
+                <div class="container">
+
+                  <div class="chooseDate">
+
+                    <div class="row">
+
+                      <div class="reservation1 col-md-4 col-sm-12 col-lg-3 col-xs-12">
+
+                        <div class="select-room">
+                          <h4  style="padding-top: 20px" class="text-center">SELECT ROOMS</h4>
+
+                          <div class="detail">
+                            <h5> <span class="fa fa-caret-right"></span>  YOU ARE BOOKING ROOM 2</h5> <br>
+                            Room 2: 2 adult 1 child
+                          </div>
+
+                          <h6 style="padding-left: 15px">Room 2: 2 adult 1 Child</h6>
+                        </div>
+
+                        <div class="reservation_check col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                          <h4 class="text-center t">YOUR RESERVATION</h2>
+                          <hr>
+                          <div class="stay-date">
+                            <div class="form-group">
+                              <h5 class="title">YOUR STAY DATES</h5>
+                            </div>
+                            <div class="form-group">
+                              <h5>ARRIVE</h5>
+                            </div>
+                            <div class="form-group">
+                              <input type="text" name="arrive" class="form-control" placeholder="Arrive">
+                            </div>
+                            <div class="form-group">
+                              <h5>DEPATURE</h5>
+                            </div>
+                            <div class="form-group">
+                              <input type="text" name="arrive" class="form-control" placeholder="Depature">
+                            </div>
+                          </div>
+
+                          <div class="room">
+                            <div class="form-group">
+                              <h5 class="title">ROOM & GUEST</h5>
+                            </div>
+                            <div class="form-group">
+                              <h5>ROOMS</h5>
+                            </div>
+                            <div class="form-group">
+                              <select class="form-control rooms">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                              <option>6</option>
+                            </select>
+                            </div>
+
+                            <div class="row form-group">
+                              <div class="col-sm-4 col-xs-2"></div>
+                              <div class="col-sm-4 col-xs-5">
+                                <h5>ADULT</h5>
+                              </div>
+                              <div class="col-sm-4 col-xs-5">
+                                <h5>CHILD</h5>
+                              </div>
+                            </div>
+
+                            <div class="row form-group">
+                              <div class="col-sm-4 col-xs-2">
+                                <h5>ROOM 1</h5>
+                              </div>
+                              <div class="col-sm-4 col-xs-5">
+                                <select class="form-control rooms">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                  <option>6</option>
+                                </select>
+                              </div>
+                              <div class="col-sm-4 col-xs-5">
+                                <select class="form-control rooms">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                  <option>6</option>
+                                </select>
+                              </div>
+
+                            </div>
+
+                            <div class="row form-group">
+                              <div class="col-sm-4 col-xs-2">
+                                <h5>ROOM 2</h5>
+                              </div>
+                              <div class="col-sm-4 col-xs-5">
+                                <select class="form-control rooms">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                  <option>6</option>
+                                </select>
+                              </div>
+                              <div class="col-sm-4 col-xs-5">
+                                <select class="form-control rooms">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                  <option>6</option>
+                                </select>
+                              </div>
+
+                            </div>
+
+                            <div class="row form-group text-center">
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                              <button class="btn"> CHECK AVAILABLE </button>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                          </div>
+                        </div>
+
+                        </div>
+                      </div>
+
+                      <div class="bookroom col-md-8 col-sm-12 col-lg-9 col-xs-12">
+                        <div class="room row">
+                          <h2>LUXURY ROOM</h2>
+                          <div class="roomdetail">
+                            <div class="img col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                              <img src="Image/Reservation/img-1.jpg">
+                            </div>
+                            <div class="roomtext col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type ...
+                              <br> <br>
+                              <ul>
+                                <li>1 King Bed</li>
+                                <li>Free Wi-Fi in all guest rooms</li>
+                                <li>Separate sitting area</li>
+                              </ul>
+                              <a href="#">View More Information</a> <br> <br>
+                              <span class="price" style="font-size: 30px">$260</span>/day
+                              <button class="btn">BOOK NOW</button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="room row">
+                          <h2>COUPLE ROOM</h2>
+                          <div class="roomdetail">
+                            <div class="img col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                              <img src="Image/Reservation/img-2.jpg">
+                            </div>
+                            <div class="roomtext col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type ...
+                              <br> <br>
+                              <ul>
+                                <li>1 King Bed</li>
+                                <li>Free Wi-Fi in all guest rooms</li>
+                                <li>Separate sitting area</li>
+                              </ul>
+                              <a href="#">View More Information</a> <br> <br>
+                              <span class="price" style="font-size: 30px">$260</span>/day
+                              <button class="btn">BOOK NOW</button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="room row">
+                          <h2>STANDARD ROOM</h2>
+                          <div class="roomdetail">
+                            <div class="img col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                              <img src="Image/Reservation/img-3.jpg">
+                            </div>
+                            <div class="roomtext col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type ...
+                              <br> <br>
+                              <ul>
+                                <li>1 King Bed</li>
+                                <li>Free Wi-Fi in all guest rooms</li>
+                                <li>Separate sitting area</li>
+                              </ul>
+                              <a href="#">View More Information</a> <br> <br>
+                              <span class="price" style="font-size: 30px">$260</span>/day
+                              <button class="btn">BOOK NOW</button>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="room row">
+                          <h2>FAMILY ROOM</h2>
+                          <div class="roomdetail">
+                            <div class="img col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                              <img src="Image/Reservation/img-4.jpg">
+                            </div>
+                            <div class="roomtext col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type ...
+                              <br> <br>
+                              <ul>
+                                <li>1 King Bed</li>
+                                <li>Free Wi-Fi in all guest rooms</li>
+                                <li>Separate sitting area</li>
+                              </ul>
+                              <a href="#">View More Information</a> <br> <br>
+                              <span class="price" style="font-size: 30px">$260</span>/day
+                              <button class="btn">BOOK NOW</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div id="tabs-3" class="tab-pane fade">
+               <div class="container">
+                 <div class="makeReservation">
+                    <div class="row">
+                      <div class="reservation1 col-md-4 col-sm-12 col-lg-3 col-xs-12">
+
+                        <div class="select-room">
+                          <h4  style="padding-top: 20px" class="text-center">SELECT ROOMS</h4>
+                          <span class="r">ROOM 1:</span> 2 adult 1 Child <br>
+                          <span class="r">LUXURY ROOM</span> <span style="font-size: 20px; color: #e1bd85; margin-left: 30px">$470</span> <br>
+                          <a href="#">Change Room</a> <br> <br>
+                          <div class="detail">
+                            <h5> <span class="fa fa-caret-right"></span>  YOU ARE BOOKING ROOM 1</h5> <br>
+                            Room 1: 2 adult 1 child
+                          </div>
+
+                          <span class="r">TOTAL</span> <span style="font-size: 20px; color: #e1bd85; margin-left: 100px">$470</span> <br>
+
+                        </div>
+
+                        <div class="reservation_check col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                          <h4 class="text-center t">YOUR RESERVATION</h2>
+                          <hr>
+                          <div class="stay-date">
+                            <div class="form-group">
+                              <h5 class="title">YOUR STAY DATES</h5>
+                            </div>
+                            <div class="form-group">
+                              <h5>ARRIVE</h5>
+                            </div>
+                            <div class="form-group">
+                              <input type="text" name="arrive" class="form-control" placeholder="Arrive">
+                            </div>
+                            <div class="form-group">
+                              <h5>DEPATURE</h5>
+                            </div>
+                            <div class="form-group">
+                              <input type="text" name="arrive" class="form-control" placeholder="Depature">
+                            </div>
+                          </div>
+
+                          <div class="room">
+                            <div class="form-group">
+                              <h5 class="title">ROOM & GUEST</h5>
+                            </div>
+                            <div class="form-group">
+                              <h5>ROOMS</h5>
+                            </div>
+                            <div class="form-group">
+                              <select class="form-control rooms">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                              <option>6</option>
+                            </select>
+                            </div>
+
+                            <div class="row form-group">
+                              <div class="col-sm-4 col-xs-2"></div>
+                              <div class="col-sm-4 col-xs-5">
+                                <h5>ADULT</h5>
+                              </div>
+                              <div class="col-sm-4 col-xs-5">
+                                <h5>CHILD</h5>
+                              </div>
+                            </div>
+
+                            <div class="row form-group">
+                              <div class="col-sm-4 col-xs-2">
+                                <h5>ROOM 1</h5>
+                              </div>
+                              <div class="col-sm-4 col-xs-5">
+                                <select class="form-control rooms">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                  <option>6</option>
+                                </select>
+                              </div>
+                              <div class="col-sm-4 col-xs-5">
+                                <select class="form-control rooms">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                  <option>6</option>
+                                </select>
+                              </div>
+
+                            </div>
+
+                            <div class="row form-group">
+                              <div class="col-sm-4 col-xs-2">
+                                <h5>ROOM 2</h5>
+                              </div>
+                              <div class="col-sm-4 col-xs-5">
+                                <select class="form-control rooms">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                  <option>6</option>
+                                </select>
+                              </div>
+                              <div class="col-sm-4 col-xs-5">
+                                <select class="form-control rooms">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                  <option>6</option>
+                                </select>
+                              </div>
+
+                            </div>
+
+                            <div class="row form-group text-center">
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                              <button class="btn"> CHECK AVAILABLE </button>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                          </div>
+                        </div>
+
+                        </div>
+                      </div>
+
+                      <div class="nextstep col-ms-8 col-sm-12 col-lg-9 col-xs-12 text-center">
+                        <h2>ALL ROOM ARE SELECTED</h2> 
+                        <span style="color: #b3b3b3; font-family: 'Montserrat'">You have chosen all of your rooms would <br>you like to continue?</span> <br> <br>
+                        <button class="btn">GO NEXT STEP</button>
+                      </div>
+                    </div>
+                   
+                 </div>
+               </div>
+              </div>
+
+              <div id="tabs-4" class="tab-pane fade">
+                <div class="container">
+                  <div class="confirmation">
+                    <div class="row">
+                      <div class="selectinfo col-lg-3 col-ms-4 col-sm-12 col-xs-12">
+                        <div class="date">
+                          <h4 class="text-center">DATES</h4>
+                          <hr>
+                          <table>
+                            <tr>
+                              <td>Check-In</td>
+                              <td class="indam">MO 5/11/2018</td>
+                            </tr>
+                            <tr>
+                              <td>Check-Out</td>
+                              <td class="indam">TH 8/11/2018</td>
+                            </tr>
+                            <tr>
+                              <td>Total Nights</td>
+                              <td class="indam">2</td>
+                            </tr>
+                            <tr>
+                              <td>Total Rooms</td>
+                              <td class="indam">2 Of 2</td>
+                            </tr>
+                            <tr>
+                              <td>Total Guest</td>
+                              <td class="indam">4 Adults 1 Child</td>
+                            </tr>
+                          </table>
+                        </div>
+                        <div class="select-room2">
+                          <h4 class="text-center">SELECTED ROOM</h3>
+                          <hr>
+                          <div class="sroom">
+                            <span class="title">ROOM 1</span> 2 Adults 1 Child <br> <br>
+                            <span class="luxu">LUXURY</span>
+                            <hr>
+                            <span class="title">SPACE PRICE</span> <br>
+                            <table>
+                              <tr>
+                                <td>5 DEC 2015</td>
+                                <td class="indam">$250</td>
+                              </tr>
+                              <tr>
+                                <td>8 DEC 2015</td>
+                                <td class="indam">$320</td>
+                              </tr>
+                            </table>
+                            <hr>
+                            <table>
+                              <tr>
+                                <td>Service</td>
+                                <td class="indam">FREE</td>
+                              </tr>
+                              <tr>
+                                <td>TAX</td>
+                                <td class="indam">$15</td>
+                              </tr>
+                            </table>
+                            <hr>
+                            <table>
+                              <tr>
+                                <td><span class="title">TOTAL ROOM 1</span></td>
+                                <td class="luxu" style="font-size: 20px">$585</td>
+                              </tr>
+                            </table>
+                          </div>
+                          <hr>
+                          <div class="sroom">
+                            <span class="title">ROOM 2</span> 2 Adults <br> <br>
+                            <span class="luxu">FAMILY</span>
+                            <hr>
+                            <span class="title">SPACE PRICE</span> <br>
+                            <table>
+                              <tr>
+                                <td>5 DEC 2015</td>
+                                <td class="indam">$250</td>
+                              </tr>
+                              <tr>
+                                <td>8 DEC 2015</td>
+                                <td class="indam">$320</td>
+                              </tr>
+                            </table>
+                            <hr>
+                            <table>
+                              <tr>
+                                <td>Service</td>
+                                <td class="indam">FREE</td>
+                              </tr>
+                              <tr>
+                                <td>TAX</td>
+                                <td class="indam">$15</td>
+                              </tr>
+                            </table>
+                            <hr>
+                            <table>
+                              <tr>
+                                <td><span class="title">TOTAL ROOM 1</span></td>
+                                <td class="luxu" style="font-size: 20px">$585</td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-1 col-ms-1 col-sm-0 col-xs-0">
+                        
+                      </div>
+                      <div class="confirm col-lg-7 col-ms-6 col-sm-12 col-xs-12">
+                        <span style="color: #b3b3b3; font-family: 'Montserrat'">Returning customer?</span><a href="Login.html">Click here to Log In</a> <br>
+                        <h1 style="font-weight: bold;">BILLING DETAIL</h1>
+                        <form class="row">
+                          <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <p class="info">COUNTRY<sup style="color: red">*</sup></p>
+                            <select class="form-control">
+                              <option>United Kingdom(UK)</option>
+                              <option>VieNam</option>
+                              <option>Thais</option>
+                              <option>Lao</option>
+                            </select>
+                          </div>
+                          <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <p class="info">FIRST NAME<sup style="color: red">*</sup></p>
+                            <input type="text" name="firstname" class="form-control">
+                          </div>
+                          <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <p class="info">LAST NAME<sup style="color: red">*</sup></p>
+                            <input type="text" name="lastname" class="form-control">
+                          </div>
+                          <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <p class="info">COMPANY NAME<sup style="color: red">*</sup></p>
+                            <input type="text" name="company" class="form-control">
+                          </div>
+                          <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <p class="info">ADDRESS<sup style="color: red">*</sup></p>
+                            <input type="text" name="address" class="form-control" placeholder="Street Address">
+                          </div>
+                          <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <input type="text" name="address" class="form-control" placeholder="Apartment">
+                          </div>
+                          <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <p class="info">TOWN/CITY<sup style="color: red">*</sup></p>
+                            <input type="text" name="firstname" class="form-control">
+                          </div>
+                          <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <p class="info">COUNTRY<sup style="color: red">*</sup></p>
+                            <input type="text" name="lastname" class="form-control">
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col-lg-1 col-ms-1 col-sm-0 col-xs-0">
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+		<div class="footer">
+			<div class="footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-9">
+							<div class="mailchimp">
+                  <h4>
+                  	News & Offers
+                	</h4>
+                	<div class="mailchimp-form">
+                    <form action="#" method="POST">
+                      <input type="text" name="email" placeholder="Your email address" class="input-text">
+                      <input type="button" class="signin" value="Sign In" />
+                    </form>
+                  </div>
+              </div>
+						</div>
+						<div class="col-lg-3">
+							<div class="social">
+                <div class="social-content">
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              	</div>                
+              </div>
+						</div>		
+					</div>
+				</div>
+			</div>
+			<div class="footer-center">
+				<div class="container">
+            <div class="row">
+            	<div class="widget-logo col-xs-12 col-lg-4">
+                <div class="img">
+                   <a href="#"><img src="Image/logo-footer.png" alt=""></a>
+                </div>
+              </div>
+
+            	<div class="text col-xs-3 col-lg-2">
+                <p><i class="fa fa-map-marker"></i> 101B Lê Hữu Trác</p>
+                <p><i class="fa fa-phone"></i> +84 648 543 343</p>
+                <p><i class="fa fa-envelope-o"></i> <a href="hello@lotushotel.com">hello@lotushotel.com</a></p>
+              </div>
+
+              <div class="col-xs-3 col-lg-2">
+                <div class="widget">
+                  <h4 class="widget-title">Page site</h4>
+                  <ul>
+                      <li><a href="#">Guest Book</a></li>
+                      <li><a href="#">Gallery</a></li>
+                      <li><a href="#">Restaurant</a></li>
+                      <li><a href="#">Event</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-xs-3 col-lg-2">
+                  <div class="widget">
+                      <h4 class="widget-title">ABOUT</h4>
+                      <ul>
+                          <li><a href="">About</a></li>
+                          <li><a href="">Blog</a></li>
+                          <li><a href="">Contact Us</a></li>
+                          <li><a href="">Comming Soon</a></li>
+                      </ul>
+                  </div>
+              </div>
+
+              <div class="col-xs-3 col-lg-2">
+                  <div class="widget widget_tripadvisor">
+                      <h4 class="widget-title">Tripadvisor</h4>
+                      <div class="tripadvisor">
+                          <p>Now with hotel reviews by</p>
+                          <img src="images/tripadvisor.png" alt="">
+                          <span class="tripadvisor-circle">
+                              <i></i>
+                              <i></i>
+                              <i></i>
+                              <i></i>
+                              <i class="part"></i>
+                          </span>
+                      </div>
+                  </div>
+              </div>
+
+            </div>
+        </div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+          <p>&copy; 2015 Lotus Hotel All rights reserved.</p>
+        </div>
+			</div>
+		</div>
+
+	</div>
+
+	<script>
+		window.onscroll = function() {scrollMenu()};
+
+    document.getElementById("slider").style.height = "300px";
+    document.getElementById("slider").style.backgroundImage = "url(Image/home/home1.jpg)";
+
+		var header = document.getElementById("myMenu");
+		var sticky = header.offsetTop;
+
+		function scrollMenu() {
+		  if (window.pageYOffset > sticky) {
+		    header.classList.add("sticky");
+		  } else {
+		    header.classList.remove("sticky");
+		  }
+		}
+
+	</script>
+</body>
+</html>
